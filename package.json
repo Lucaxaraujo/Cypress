@@ -1,17 +1,25 @@
 {
   "name": "cypress-modern-automation",
   "version": "1.0.0",
-  "description": "",
   "main": "cypress.config.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "cypress": "^12.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucaxaraujo/Cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lucaxaraujo/Cypress/issues"
+  },
+  "homepage": "https://github.com/Lucaxaraujo/Cypress#readme",
+  "description": ""
 }
