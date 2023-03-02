@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
-describe('My Fifth Test Suite', function() {
-  it('My Fifth Test Case', function() {
+describe('My Fourth Test Suite', function() {
+  it('My Fourth Test Case', function() {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
 
     //Handling static dropdowns
@@ -15,7 +15,6 @@ describe('My Fifth Test Suite', function() {
       }
     });
 
-    cy.get('#autocomplete').should('have.value', 'Brazil')
-
+    cy.get('#autocomplete').should('have.value', 'Brazil');
   });
 });
