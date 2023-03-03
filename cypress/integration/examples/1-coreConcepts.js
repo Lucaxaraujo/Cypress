@@ -32,7 +32,5 @@ describe('My First Test Suite', function() {
     cy.get('.brand').then(function(logoelement) {
       cy.log(logoelement.text());
     });
-
-
   });
 });
