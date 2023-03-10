@@ -6,5 +6,9 @@ describe('My Eighth Test Suite', function() {
 
     //Using Jquery function 'removeAtt' to open tab in same window
     cy.get('#opentab').invoke('removeAttr', 'target').click();
+
+    cy.url().should('include', 'rahulshettyacademy');
+    cy.go('back');
+
   });
 });
