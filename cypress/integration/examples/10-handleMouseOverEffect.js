@@ -15,6 +15,5 @@ describe('My Tenth Test Suite', function() {
     //Another way is to force the click method (if the scenario is to simply check wether the option is working correctly when clicked).
     cy.contains('Top').click({ force: true });
     cy.url().should('include', 'top');
-
   });
 });
