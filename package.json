@@ -4,12 +4,13 @@
   "main": "cypress.config.js",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^12.6.0"
+    "cypress": "^12.6.0",
+    "cypress-iframe": "^1.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "author": "",
   "license": "ISC",
